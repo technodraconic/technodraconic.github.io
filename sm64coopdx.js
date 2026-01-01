@@ -4582,7 +4582,7 @@ async function createWasm() {
             try {
               // The default value is 'ws://' the replace is needed because the compiler replaces '//' comments with '#'
               // comments without checking context, so we'd end up with ws:#, the replace swaps the '#' for '//' again.
-              var url = 'ws://eleven-cars-cover.loca.lt'.replace('#', '//');
+              var url = 'wss://8227b4b1a7df.ngrok-free.app'.replace('#', '//');
               // Make the WebSocket subprotocol (Sec-WebSocket-Protocol) default to binary if no configuration is set.
               var subProtocols = 'binary'; // The default value is 'binary'
               // The default WebSocket options
